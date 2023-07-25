@@ -1,0 +1,57 @@
+Đây là một trang web mẫu để bán sách:
+
+Trang chủ:
+- Trang chủ sẽ hiển thị danh sách các sách mới nhất, sách bán chạy và các ưu đãi đặc biệt.
+- Có một thanh tìm kiếm để người dùng có thể tìm kiếm sách theo tên, tác giả hoặc thể loại.
+
+Danh mục sách:
+- Trang này sẽ hiển thị danh sách các danh mục sách khác nhau, chẳng hạn như tiểu thuyết, kinh tế, khoa học, v.v.
+- Người dùng có thể chọn một danh mục để xem danh sách các sách thuộc danh mục đó.
+
+Chi tiết sách:
+- Khi người dùng chọn một cuốn sách, trang này sẽ hiển thị thông tin chi tiết về sách đó, bao gồm tên sách, tác giả, mô tả, giá, v.v.
+- Người dùng có thể thêm sách vào giỏ hàng từ trang này.
+
+Giỏ hàng:
+- Trang này sẽ hiển thị danh sách các sách mà người dùng đã thêm vào giỏ hàng.
+- Người dùng có thể xem lại thông tin chi tiết về từng cuốn sách trong giỏ hàng và cập nhật số lượng sách.
+- Người dùng có thể tiến hành thanh toán từ trang này.
+
+Thanh toán:
+- Trang này sẽ yêu cầu người dùng cung cấp
+
+mã màu:
+-chữ header: #104c91 #1f8ac0
+-background header: #efc9af;
+example: http://mauweb.monamedia.net/donghohaitrieu/
+ <nav class="header_navbar">
+                    <ul class="header_navbar-list">
+                        <li class="header_navbar-item">
+                            <a href="" class="header_navbar-item-link">Thông báo</a>
+                        </li>
+                        <li class="header_navbar_item">
+                            <a href="" class="header_navbar-item-link">Trợ giúp</a>
+                        </li>
+                        <li class="header_navbar_item">
+                             <a href="" class="header_navbar-item-link">Đăng ký</a>
+                        </li>
+                        <li class="header_navbar_item">
+                            <a href="" class="header_navbar-item-link">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </nav>   
+
+
+<button id="show">
+		show
+	  </button>
+	  <script>
+		var btn=document.querySelector("#show");
+		btn.addEventListener('mouseover', () =>{
+			btn.style.display="none"
+		})
+		btn.addEventListener('mouseout', () => {
+			btn.style.display="block";
+		})
+		
+	  </script>
